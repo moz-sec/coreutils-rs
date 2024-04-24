@@ -1,0 +1,16 @@
+[package]
+name = "echo-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["moz-sec <m0253c@gmail.com>"]
+
+license = "MIT"
+description = "echo-rc: write arguments to the standard output implemented by Rust"
+repository = "https://github.com/moz-sec/coreutils-rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+assert_cmd = "2.0.14"
+clap = { version = "4.5.4", features = ["derive"] }
+predicates = "3.1.0"
