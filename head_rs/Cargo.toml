@@ -1,0 +1,21 @@
+[package]
+name = "head_rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["moz-sec <m0253c@gmail.com>"]
+
+license = "MIT"
+description = "head-rs: display first lines of a file in Rust"
+repository = "https://github.com/moz-sec/coreutils-rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+
+[dev-dependencies]
+anyhow = "1.0.82"
+assert_cmd = "2.0.14"
+predicates = "3.1.0"
+pretty_assertions = "1.4.0"
+rand = "0.8.5"
