@@ -1,0 +1,21 @@
+[package]
+name = "find_rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["moz-sec <m0253c@gmail.com>"]
+
+license = "MIT"
+description = "find_rs: walk a file hierarchy in Rust"
+repository = "https://github.com/moz-sec/coreutils-rs"
+
+[dependencies]
+clap = { version = "4.5.9", features = ["derive"] }
+regex = "1.10.5"
+walkdir = "2.5.0"
+
+[dev-dependencies]
+anyhow = "1.0.86"
+assert_cmd = "2.0.14"
+predicates = "3.1.0"
+pretty_assertions = "1.4.0"
+rand = "0.8.5"
