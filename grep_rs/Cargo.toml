@@ -1,0 +1,23 @@
+[package]
+name = "grep_rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["moz-sec <m0253c@gmail.com>"]
+
+license = "MIT"
+description = "grep_rs: file pattern searcher in Rust"
+repository = "https://github.com/moz-sec/coreutils-rs"
+
+[dependencies]
+anyhow = "1.0.86"
+clap = { version = "4.5.13", features = ["derive"] }
+regex = "1.10.6"
+sys-info = "0.9.1"
+walkdir = "2.5.0"
+
+[dev-dependencies]
+anyhow = "1.0.86"
+assert_cmd = "2.0.15"
+predicates = "3.1.2"
+pretty_assertions = "1.4.0"
+rand = "0.8.5"
